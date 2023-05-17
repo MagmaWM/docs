@@ -7,7 +7,7 @@
 it is currently in heavy development, so bugs and drastic changes are to be expected as MagmaWM develops.
 
 ## Wayland Info
-Unlike X, which has a display server which communicates with a WM, Wayland itself is a protocol, instead having the WM (if you want to be pedantic, it's technically called a Wayland compositor) handle the duties that would be handled by a display server on X.
+Unlike X, which has a display server which communicates with a WM, in Wayland the Window Manager (Compositor) is the Display Server.
 
 ## Support Info
 If you are having issues, consider joining our [Discord server](https://discord.gg/VM8DkxaHfa).

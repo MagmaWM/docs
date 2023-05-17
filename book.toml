@@ -10,4 +10,4 @@ default-theme = "mocha"
 additional-css = ["./theme/catppuccin.css", "./theme/catppuccin-highlight.css"]
 git-repository-url = "https://github.com/MagmaWM/MagmaWM"
 git-repository-icon = "fa-github"
-edit-url-template = "https://github.com/MagmaWM/Docs/{path}"
+edit-url-template = "https://github.com/MagmaWM/Docs/tree/main/{path}"

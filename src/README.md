@@ -1,23 +1,22 @@
-<p align="center">
-  <p align="center">
-    <img src="https://magmawm.org/assets/magma.png" style="width: 15%;" alt="wmlogo"></img>
-    <h1 align="center">MagmaWM</h1>
- <h3 align="center">a versatile and customizable Wayland Compositor</h3>
-</p>
-</p>
-  <p align="center">
-    <img src="https://img.shields.io/github/languages/top/magmawm/magmawm?style=for-the-badge"/>
-    <img src="https://img.shields.io/github/commit-activity/m/magmawm/magmawm?style=for-the-badge"/>
-    <img src="https://img.shields.io/github/issues/magmawm/magmawm?style=for-the-badge"/>
-  </p>
+# Introduction
 
-## About
+## MagmaWM Info
 
-**MagmaWM** is a versatile and customizable window manager / [Wayland compositor](https://wayland.freedesktop.org/), currently in development and actively seeking contributions from the community. Built with the [Smithay](https://github.com/Smithay/smithay) library and programmed in [Rust](https://www.rust-lang.org/), MagmaWM along with it's RON config provides users with flexibility and customization options. MagmaWM is licensed under GPLv3, ensuring that it remains open-source and free for all to use and contribute to.
+**MagmaWM** is a versatile and customizable [Wayland compositor](https://wayland.freedesktop.org/) for Linux systems, made with the [Smithay](https://github.com/Smithay/smithay) library and programmed in [Rust](https://www.rust-lang.org/).
 
-Join our [Discord](https://discord.gg/VM8DkxaHfa)!
+it is currently in heavy development, so bugs and drastic changes are to be expected as MagmaWM develops.
 
-## Build
+## Wayland Info
+Unlike X, which has a display server which communicates with a WM, in Wayland the Window Manager (Compositor) is the Display Server.
+
+## Support Info
+If you are having issues, consider joining our [Discord server](https://discord.gg/VM8DkxaHfa).
+
+## Building MagmaWM
+
+### 0. Disclaimer
+MagmaWM is under heavy development and is alpha-quality, so it is not recommended for daily use just yet.
+If you do wish to use it, make sure you have another WM installed so you have something to fall back on in case MagmaWM breaks.
 
 ### 1. Dependencies
 You will need to install MagmaWM's dependencies with your package manager of choice.

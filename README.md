@@ -1,0 +1,2 @@
+# Docs
+Docs for Magma

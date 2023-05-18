@@ -49,3 +49,5 @@ If you really want to, run the following command to install MagmaWM:
 cargo install --path .
 ```
 
+### License
+The MagmaWM documentation is released under the [Creative Commons License SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) unless otherwise noted. 

@@ -46,8 +46,12 @@ You can also use `cargo run --release` to run the project.
 **MagmaWM** is still under heavy development and installation is not recommended.
 If you really want to, run the following command to install MagmaWM: 
 ```bash
-cargo install --path .
+$ cargo install --path .
 ```
-
+Your User should also be part of the seatd group.
+In order to add you user to the seatd group run the following command and relogin.
+```bash
+# usermod -aG seatd $(whoami)
+```
 ### License
 The MagmaWM documentation is released under the [Creative Commons License SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) unless otherwise noted. 
